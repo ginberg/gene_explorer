@@ -29,7 +29,7 @@ body1 <-box(id     = "readmeBox",
             status = "info",
             collapsible = T,
             collapsed   = T,
-            includeMarkdown("info.md")
+            includeMarkdown("README.md")
 )
 
 body2 <- box(id     = "tabContainer",
