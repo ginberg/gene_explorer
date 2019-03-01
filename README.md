@@ -6,4 +6,4 @@ This shiny application is an interactive Gene Explorer.
 * The plots are created using [CanvasXpress](https://canvasXpress.com), which is a package for interactive data visualization. It supports a large number of visualizations to display scientific and non-scientific data which includes: Area, AreaLine, Bar, BarLine, Boxplot, Bubble, Candlestick, Chord, Circular, Contour, Correlation, Density, Donnut, DotLine, Dotplot, Genome, Heatmap, Histogram, Kaplan-Meier, Layout, Line, Map, Network, NonLinear-Fit, Oncoprint, ParallelCoordinates, Pie, Radar, Remote-Graphs, Sankey, Scatter2D, Scatter3D, ScatterBubble2D, Stacked, StackedLine, StackedPercent, StackedPercentLine, Sunburst, TagCloud, Tree, Treemap, Venn, Video, Violin.
 This [blogpost](https://blog.dominodatalab.com/large-visualizations-canvasxpress/) gives a good overview on how to get started with CanvasXpress.
 
-*Application development by [Connie Brett](http://www.aggregate-genius.com/) and [Ger Inberg](https://gerinberg.com)*
+*Application development by Connie Brett and Ger Inberg*
