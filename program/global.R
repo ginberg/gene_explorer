@@ -11,7 +11,7 @@
 
 
 # -- Setup your Application --
-set_app_parameters(title = "Gene explorer",
+set_app_parameters(title = "Interactive Gene Explorer",
                    titleinfo = NULL,
                    loglevel = "DEBUG",
                    showlog = FALSE,

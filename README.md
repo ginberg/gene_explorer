@@ -1,4 +1,5 @@
-This shiny application is an interactive Gene Explorer.
+This shiny application is an interactive Gene Explorer. 
+The dataset is divided into 9 contrasts, each containing (the same) 100 Genes. The first tab displays the Genes per contrasts and is used to quickly view the Genes that have increased or decreased. In the second tab, individual Genes can be analyzed. 
 
 <p><b>Application properties</b>
 
