@@ -45,10 +45,10 @@ body2 <- box(id     = "tabContainer",
                                             tags$hr(),
                                             canvasXpressOutput("volcano_plot", width = "100%", height = "500")),
                          tabPanel(title = "Gene plots",
-                                            canvasXpressOutput("gene_plot", width = "100%", height = "700")),
+                                            canvasXpressOutput("gene_plot", width = "100%", height = "750")),
                          tabPanel(title = "Data", downloadableTableUI("tableId", 
                                                                       downloadtypes = c("csv", "tsv"),
-                                                                      contentHeight = "600px"))
+                                                                      contentHeight = "650px"))
              ))
 
 

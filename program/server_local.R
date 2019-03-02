@@ -44,7 +44,9 @@ table_data <- function() {
     df <- exData$contrasts[[x]] 
     df$Gene     <- rownames(df)
     df$Contrast <- x
-    df %>% select(Contrast, Gene, logFC, AveExpr, Qvalue, NegativeLogP, Group)
+    df %>% 
+      select(Contrast, Gene, logFC, AveExpr, P.Value, adj.P.Val, Qvalue, NegativeLogP, Group) %>% 
+      mutate_if(is.numeric, round, 4)
   }))
 }
 

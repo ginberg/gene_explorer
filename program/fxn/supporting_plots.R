@@ -9,8 +9,8 @@ axisAlgorithm        <- "wilkinsonExtended"
 backgroundType       <- "window"
 sizes                <- c(10, 10, 4, 10, 12, 14, 16, 18, 20, 22, 24, 26)
 plot_colors          <- c("rgba(0,104,139,0.5)", "rgba(205,0,0,0.5)", "rgba(64,64,64,0.5)")
-backgroundColor      <- "lightgrey"
-tickColor            <- "white"
+backgroundColor      <- "white"
+tickColor            <- "lightgrey"
 legendBoxColor       <- "black"
 fontName             <- "Arial"
 sizeByShowLegend     <- FALSE
@@ -135,13 +135,13 @@ genePlot <- function(df, block, title = NULL) {
       varAnnot                 = varAnnot,
       graphType                = "Boxplot",
       graphOrientation         = "vertical",
-      backgroundWindow         = "lightgrey",
+      backgroundWindow         = backgroundColor,
       backgroundType           = backgroundType,
       legendBoxColor           = legendBoxColor,
       legendBackgroundColor    = backgroundColor,
       groupingFactors          = c("Group"),
       segregateVariablesBy     = list("Gene"),
-      colors                   = rep("deepskyblue3", 4),
+      colors                   = rep(plot_colors[1], 4),
       title                    = "Top Fold Changes Genes",
       titleScaleFontFactor     = 0.4,
       xAxisTitle               = "Log2CPM",
@@ -156,7 +156,7 @@ genePlot <- function(df, block, title = NULL) {
       axisAlgorithm            = axisAlgorithm,
       showLegend               = FALSE,
       layoutBoxShow            = FALSE,
-      smpLabelRotate           = 50,
+      smpLabelRotate           = 45,
       smpLabelScaleFontFactor  = 0.5,
       xAxisMinorTicks          = FALSE,
       fontName                 = fontName,

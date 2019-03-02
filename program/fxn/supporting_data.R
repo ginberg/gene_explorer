@@ -1,3 +1,7 @@
+# ----------------------
+# Data Related Functions
+#-----------------------
+
 loadData <- function(filename) {
   exData <- readRDS(filename)
   # format gene names: remove first underscore and all characters after that
